@@ -1,0 +1,144 @@
+/*Layout*/
+body {
+  background-color: rgb(255, 255, 255);
+	overflow: hidden;
+}
+
+#vingnette{
+	position: absolute;
+	z-index: 100px;
+	top:-1em;
+	left:-1em;
+	width:120em;
+	height:60em;
+}
+
+#button20{
+	position: absolute;
+	z-index: 150px;
+	top:11em;
+	left:6em;
+}
+
+#page{
+	position: absolute;
+	z-index: 100px;
+	top:-1em;
+	left:-1em;
+	width:120em;
+	height:60em;
+}
+
+#about{
+	position: absolute;
+	z-index: 150px;
+	top:-4em;
+	left:-4em;
+
+}
+
+#upload{
+	position: absolute;
+	z-index: 150px;
+	top:2em;
+	left:28em;
+
+}
+
+.image{
+	position: absolute;
+	z-index: 150px;
+	top:15em;
+	left:18em;
+}
+
+#button1{
+	position: absolute;
+	z-index: 150px;
+	top:3em;
+	left:5em;
+}
+#button2{
+	position: absolute;
+	z-index: 150px;
+	top:3em;
+	left:16em;
+}
+#button3{
+	position: absolute;
+	z-index: 150px;
+	top:3em;
+	left:27em;
+}
+#button4{
+	position: absolute;
+	z-index: 150px;
+	top:3em;
+	left:38em;
+}
+#button5{
+	position: absolute;
+	z-index: 150px;
+	top:3em;
+	left:49em;
+}
+#button6{
+	position: absolute;
+	z-index: 150px;
+	top:15em;
+	left:5em;
+}
+#button7{
+	position: absolute;
+	z-index: 150px;
+	top:15em;
+	left:16em;
+}
+#button8{
+	position: absolute;
+	z-index: 150px;
+	top:15em;
+	left:27em;
+}
+#button9{
+	position: absolute;
+	z-index: 150px;
+	top:15em;
+	left:38em;
+}
+#button10{
+	position: absolute;
+	z-index: 150px;
+	top:15em;
+	left:49em;
+}
+#button11{
+	position: absolute;
+	z-index: 150px;
+	top:15em;
+	left:49em;
+}
+#googleMap{
+	position: absolute;
+	z-index: 150px;
+	top:4em;
+	left:6em;
+}
+#harlem{
+	position: absolute;
+	z-index:250px;
+	top:12.5em;
+	left:6.5em;	
+}
+#flickr{
+	position: absolute;
+	z-index: 150px;
+	top:3em;
+	left:16em;
+}
+#socialMedia{
+	position: absolute;
+	z-index: 150px;
+	top:30em;
+	left:-1em;
+}
