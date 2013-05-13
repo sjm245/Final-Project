@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <title>BARS</title>
+	<meta charset = "utf-8" />
+	<link rel="stylesheet" href="app.css">
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+	</script>
+	<script>
+	function initialize()
+	{
+
+	  var mapProp = {
+	    center: new google.maps.LatLng(51.508742,-0.120850),
+	    zoom:9,
+	    mapTypeId: google.maps.MapTypeId.ROADMAP
+	  };
+	  var mapProp2 = {
+	    center: new google.maps.LatLng(51.508742,-0.120850),
+	    zoom:9,
+	    mapTypeId: google.maps.MapTypeId.SATELLITE
+	  };
+	  var mapProp3 = {
+	    center: new google.maps.LatLng(51.508742,-0.120850),
+	    zoom:9,
+	    mapTypeId: google.maps.MapTypeId.HYBRID
+	  };
+	  var mapProp4 = {
+	    center: new google.maps.LatLng(51.508742,-0.120850),
+	    zoom:9,
+	    mapTypeId: google.maps.MapTypeId.TERRAIN
+	  };
+	  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	function changeSrc()
+	  {
+	  document.getElementById("image1").src="image_back.png";
+
+		}		  
+	function changeSrc1()
+	  {
+	  document.getElementById("image2").src="image_back.png";
+	  }	
+	function changeSrc2()
+	  {
+	  document.getElementById("image3").src="image_back.png";
+	  }
+	function changeSrc3()
+	  {
+	  document.getElementById("image4").src="image_back.png";
+	  }
+	function changeSrc4()
+	  {
+	  document.getElementById("image5").src="image_back.png";
+	  }
+	function changeSrc5()
+	  {
+	  document.getElementById("image6").src="image_back.png";
+	  }
+	function changeSrc6()
+	  {
+	  document.getElementById("image7").src="image_back.png";
+	  }
+	function changeSrc7()
+	  {
+	  document.getElementById("image8").src="image_back.png";
+	  }
+	function changeSrc8()
+	  {
+	  document.getElementById("image9").src="image_back.png";
+	  }
+	function changeSrc9()
+	  {
+	  document.getElementById("image10").src="image_back.png";
+	  }
+	</script>
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+</head>
+<body>
+	<img id="page" src="background.png" alt="page"/>
+	<img id="vingnette" src="vingnette.png" alt="vignette"/>  
+	<img id="upload" src="upload_tab.png" alt="upload"/>
+	<div class="image">
+		<img id="button1" src="image_back.png">
+		<div id="flickr"><a href="/photos/theseoduke/6189739534/in/photostream/" class="photo-link rapidnofollow" id="yui_3_7_3_3_1368467233704_1064"><span class="facade-of-protection" id="yui_3_7_3_3_1368467233704_1242"></span><img data-size-id="http://farm7.staticflickr.com/6161/6189739534_8b3bcd68a9.jpg" class="loaded" style="opacity: 1; z-index: 1; width:10em; height:10em;" src="http://farm7.staticflickr.com/6161/6189739534_8b3bcd68a9.jpg" id="yui_3_7_3_3_1368467233704_1066"></a></div>
+		<div id="button2"><a onclick="changeSrc1()" ><img id="image2" src="image2.png"></div>
+		<div id="button3"><a onclick="changeSrc2()" ><img id="image3" src="image.png"></div>
+		<div id="button4"><a onclick="changeSrc3()" ><img id="image4" src="image.png"></div>
+		<div id="button5"><a onclick="changeSrc4()" ><img id="image5" src="image.png"></div>
+		<div id="button6"><a onclick="changeSrc5()" ><img id="image6" src="image.png"></div>
+		<div id="button7"><a onclick="changeSrc6()" ><img id="image7" src="image.png"></div>
+		<div id="button8"><a onclick="changeSrc7()" ><img id="image8" src="image.png"></div>
+		<div id="button9"><a onclick="changeSrc8()" ><img id="image9" src="image.png"></div>
+		<div id="button10"><a onclick="changeSrc9()" ><img id="image10" src="image.png"></div>
+		<div id="googleMap" style="width:8em;height:8em;"></div> 
+		<img id="harlem" src="Harlem.png" alt="harlem"/>
+	</div>
+
+	<script type="text/javascript">stLight.options({publisher: "ur-4375ec3d-e7c-3ade-7da-cd9380d35bd3", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	<script>
+	var options={ "publisher": "ur-4375ec3d-e7c-3ade-7da-cd9380d35bd3", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "pinterest", "email", "sharethis"]}};
+	var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+	</script>
+
+</a> 
+</body>
+</html>
