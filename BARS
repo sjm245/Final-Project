@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+  <title>BARS</title>
+	<meta charset = "utf-8" />
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+	<img id="page" src="background.png" alt="page"/>
+	<img id="vingnette" src="vingnette.png" alt="vignette"/>  
+	<img id="about" src="about.png" alt="about"/>
+	<a id="button20" href="app.html" target="_self"><img src="title.png" alt="title"/></a>	
+</body>
+</html>
